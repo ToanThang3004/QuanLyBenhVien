@@ -1,0 +1,78 @@
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\bin\Debug\QuanLyBenhVien.exe.config
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\bin\Debug\QuanLyBenhVien.exe
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\bin\Debug\QuanLyBenhVien.pdb
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.csprojAssemblyReference.cache
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.Form1.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.Properties.Resources.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.csproj.GenerateResource.cache
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.csproj.CoreCompileInputs.cache
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.exe
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.pdb
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\bin\Debug\EntityFramework.dll
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\bin\Debug\EntityFramework.SqlServer.dll
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\bin\Debug\EntityFramework.xml
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\bin\Debug\EntityFramework.SqlServer.xml
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.csproj.CopyComplete
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.phieukham.PhieuKham.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DThuoc.DThuoc.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.Thuoc.Thuoc.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.d1.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DVBN.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.QLKhoa.QLKhoa.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.QLNhanVien.QLNhanVien.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.QLGiuongBenh.QLGiuongBenh.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DSPhieuNhapVien.DSPhieuNhapVien.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormChuyenVien.ChuyenVien.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.GiaoDienChinh.GiaoDienChinh.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.TTBenhVien.TTBenhVien.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.TraCuuDoanhThu.TraCuuDoanhThu.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DSXuatVien.DanhSachXuatVien.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DSChuyenVien.DanhSachChuyenVien.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.TTVienPhi.TTVienPhi.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.BenhAn.LapBenhAn.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.BenhAn.BenhAn.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.User.Forget.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.User.Login.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.User.Register.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.HoaDon.TTHoaDon.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DSPhieuDichVu.DSPhieuDichVu.resources
+D:\do an\PTUDCSDL LY THUYET\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DThuoc.DSDonThuoc.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\bin\Debug\QuanLyBenhVien.exe.config
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\bin\Debug\QuanLyBenhVien.exe
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\bin\Debug\QuanLyBenhVien.pdb
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\bin\Debug\EntityFramework.dll
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\bin\Debug\EntityFramework.xml
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.csprojAssemblyReference.cache
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.BenhAn.BenhAn.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.BenhAn.LapBenhAn.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.Form1.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DVBN.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DThuoc.DSDonThuoc.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DThuoc.DThuoc.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DSChuyenVien.DanhSachChuyenVien.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.d1.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DSPhieuDichVu.DSPhieuDichVu.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DSPhieuNhapVien.DSPhieuNhapVien.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.DSXuatVien.DanhSachXuatVien.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormChuyenVien.ChuyenVien.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.GiaoDienChinh.GiaoDienChinh.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.HoaDon.TTHoaDon.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.phieukham.PhieuKham.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.Properties.Resources.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.QLGiuongBenh.QLGiuongBenh.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.QLKhoa.QLKhoa.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.QLNhanVien.QLNhanVien.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.Thuoc.Thuoc.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.TraCuuDoanhThu.TraCuuDoanhThu.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.TTBenhVien.TTBenhVien.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.TTVienPhi.TTVienPhi.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.User.Forget.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.User.Login.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.User.Register.resources
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.csproj.GenerateResource.cache
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.csproj.CoreCompileInputs.cache
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.csproj.CopyComplete
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.exe
+C:\Users\ToanThang\Desktop\PhatTrienUD\ly thuyet\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.pdb

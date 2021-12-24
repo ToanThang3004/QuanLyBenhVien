@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{571D3F2B-0EC1-4761-8E7E-2E70C13BEBE5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuanLyBenhVien</RootNamespace>
+    <AssemblyName>QuanLyBenhVien</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BenhAn\BenhAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BenhAn\BenhAn.Designer.cs">
+      <DependentUpon>BenhAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BenhAn\LapBenhAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BenhAn\LapBenhAn.Designer.cs">
+      <DependentUpon>LapBenhAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BenhNhan.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BenhNhan\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BenhNhan\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BenhVien.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BuonBenh.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChiTietDonThuoc.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChiTietPhieuDichVu.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DichVu.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DichVuChoBenhNhan\DVBN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DichVuChoBenhNhan\DVBN.Designer.cs">
+      <DependentUpon>DVBN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DonThuoc.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DonThuoc\DSDonThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DonThuoc\DSDonThuoc.Designer.cs">
+      <DependentUpon>DSDonThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DonThuoc\DThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DonThuoc\DThuoc.Designer.cs">
+      <DependentUpon>DThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSChuyenVien\DanhSachChuyenVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSChuyenVien\DanhSachChuyenVien.Designer.cs">
+      <DependentUpon>DanhSachChuyenVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSDichVu\dsDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSDichVu\dsDichVu.Designer.cs">
+      <DependentUpon>dsDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSPhieuDichVu\DSPhieuDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSPhieuDichVu\DSPhieuDichVu.Designer.cs">
+      <DependentUpon>DSPhieuDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSPhieuNhapVien\DSPhieuNhapVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSPhieuNhapVien\DSPhieuNhapVien.Designer.cs">
+      <DependentUpon>DSPhieuNhapVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSThuoc.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DSXuatVien\DanhSachXuatVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSXuatVien\DanhSachXuatVien.Designer.cs">
+      <DependentUpon>DanhSachXuatVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChuyenVien\ChuyenVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChuyenVien\ChuyenVien.Designer.cs">
+      <DependentUpon>ChuyenVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiaoDienChinh\GiaoDienChinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiaoDienChinh\GiaoDienChinh.Designer.cs">
+      <DependentUpon>GiaoDienChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiuongBenh.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDon\TTHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoaDon\TTHoaDon.Designer.cs">
+      <DependentUpon>TTHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HoSoBenhAn.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Khoa.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LayMatKhau.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuChuyenVien.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuDichVu.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuKhamBenh.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="phieukham\PhieuKham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="phieukham\PhieuKham.Designer.cs">
+      <DependentUpon>PhieuKham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuNhapVien.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuXuatVien.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLGiuongBenh\QLGiuongBenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLGiuongBenh\QLGiuongBenh.Designer.cs">
+      <DependentUpon>QLGiuongBenh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLKhoa\QLKhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLKhoa\QLKhoa.Designer.cs">
+      <DependentUpon>QLKhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNhanVien\QLNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNhanVien\QLNhanVien.Designer.cs">
+      <DependentUpon>QLNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaiKhoan.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc\Thuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thuoc\Thuoc.Designer.cs">
+      <DependentUpon>Thuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraCuuDoanhThu\TraCuuDoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraCuuDoanhThu\TraCuuDoanhThu.Designer.cs">
+      <DependentUpon>TraCuuDoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTBenhVien\TTBenhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTBenhVien\TTBenhVien.Designer.cs">
+      <DependentUpon>TTBenhVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTVienPhi\TTVienPhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTVienPhi\TTVienPhi.Designer.cs">
+      <DependentUpon>TTVienPhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\Forget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\Forget.Designer.cs">
+      <DependentUpon>Forget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VienPhi.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BenhAn\BenhAn.resx">
+      <DependentUpon>BenhAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BenhAn\LapBenhAn.resx">
+      <DependentUpon>LapBenhAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BenhNhan\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DichVuChoBenhNhan\DVBN.resx">
+      <DependentUpon>DVBN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DonThuoc\DSDonThuoc.resx">
+      <DependentUpon>DSDonThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DonThuoc\DThuoc.resx">
+      <DependentUpon>DThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSChuyenVien\DanhSachChuyenVien.resx">
+      <DependentUpon>DanhSachChuyenVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSDichVu\dsDichVu.resx">
+      <DependentUpon>dsDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSPhieuDichVu\DSPhieuDichVu.resx">
+      <DependentUpon>DSPhieuDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSPhieuNhapVien\DSPhieuNhapVien.resx">
+      <DependentUpon>DSPhieuNhapVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSXuatVien\DanhSachXuatVien.resx">
+      <DependentUpon>DanhSachXuatVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChuyenVien\ChuyenVien.resx">
+      <DependentUpon>ChuyenVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiaoDienChinh\GiaoDienChinh.resx">
+      <DependentUpon>GiaoDienChinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoaDon\TTHoaDon.resx">
+      <DependentUpon>TTHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="phieukham\PhieuKham.resx">
+      <DependentUpon>PhieuKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QLGiuongBenh\QLGiuongBenh.resx">
+      <DependentUpon>QLGiuongBenh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLKhoa\QLKhoa.resx">
+      <DependentUpon>QLKhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNhanVien\QLNhanVien.resx">
+      <DependentUpon>QLNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thuoc\Thuoc.resx">
+      <DependentUpon>Thuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraCuuDoanhThu\TraCuuDoanhThu.resx">
+      <DependentUpon>TraCuuDoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TTBenhVien\TTBenhVien.resx">
+      <DependentUpon>TTBenhVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TTVienPhi\TTVienPhi.resx">
+      <DependentUpon>TTVienPhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\Forget.resx">
+      <DependentUpon>Forget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="Model.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model.edmx.diagram">
+      <DependentUpon>Model.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model.edmx</DependentUpon>
+      <LastGenOutput>Model.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model.edmx</DependentUpon>
+      <LastGenOutput>Model.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
